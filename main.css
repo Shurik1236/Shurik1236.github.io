@@ -1,0 +1,7 @@
+body {
+    font-family: Arial;
+}
+
+#title h1, p {
+    text-align: center;
+}
