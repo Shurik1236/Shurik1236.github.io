@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,.5);
-    background-color: rgba(180, 225, 243,.5);
+    background-color: rgba(180, 225, 243,.46);
 }
 /*Спойлер*/
 .spoiler > input + label:after{content: "+";float: right;font-family: monospace;font-weight: bold;}
