@@ -1,0 +1,41 @@
+html {
+    background-image: url(../images/background/background_space.png);
+    color: white;
+    padding-top: 25px;
+    font-size: 1.3em;
+}
+body {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    background-color: rgba(180, 225, 243,.5);
+}
+/*Спойлер*/
+.spoiler > input + label:after{content: "+";float: right;font-family: monospace;font-weight: bold;}
+.spoiler > input:checked + label:after{content: "-";float: right;font-family: monospace;font-weight: bold;}
+.spoiler > input{display:none;}
+.spoiler > input + label , .spoiler > .spoiler_body{background: #2B11BF;padding:5px 15px;overflow:hidden;width:100%;box-sizing: border-box;display: block;}
+.spoiler > input + label + .spoiler_body{display:none;}
+.spoiler > input:checked + label + .spoiler_body{display: block;}
+.spoiler > .spoiler_body{background-color: rgba(180, 225, 243,.2);border: 3px solid #2B11BF;border-top: none;}
+/*Выравнение изображений по центру*/
+img {
+    margin: 0 auto;
+    display: block;
+}
+table { 
+    width: auto; /* Ширина таблицы */
+    border: 4px double white; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+}
+th { 
+    text-align: left; /* Выравнивание по левому краю */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid white; /* Граница вокруг ячеек */
+}
+td { 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid white; /* Граница вокруг ячеек */
+}
