@@ -9,7 +9,7 @@ body {
     padding: 20px;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
     background-color: rgba(180, 225, 243,.3);
 }
 /*Спойлер*/
@@ -19,7 +19,7 @@ body {
 .spoiler > input + label , .spoiler > .spoiler_body{background: #2B11BF;padding:5px 15px;overflow:hidden;width:100%;box-sizing: border-box;display: block;}
 .spoiler > input + label + .spoiler_body{display:none;}
 .spoiler > input:checked + label + .spoiler_body{display: block;}
-.spoiler > .spoiler_body{background-color: rgba(180, 225, 243,.2);border: 3px solid #2B11BF;border-top: none;}
+.spoiler > .spoiler_body{background-color: rgba(180, 225, 243,.1);border: 3px solid #2B11BF;border-top: none;}
 /*Выравнение изображений по центру*/
 img {
     margin: 0 auto;
